@@ -50,5 +50,7 @@ Testes foram divididos em duas partes:
 - Só aceitar números na tela de cadastramento do telefone.
 - Limitar a quantidade de caracteres no campo [Nome Completo] O sistema aceita um valor mínimo, porém não foi definido um valor máximo para o campo.
 - Validar informação no campo [Nome Completo]. Sistema aceita caracteres especiais e isso pode gerar um brecha de segurança na aplicação.
+- Não há cadastramento de senha na aplicação, sendo um aplicativo social seria interessante implementar o fluxo de autenticação.
+- Implementar fluxo para o usuário informar o clima em sua região. Desta forma o aplicativo poderia, além da API mostrar os dados climáticos, exibir a informação do clima do ponto de vista do usuário. O usuário também poderia verificar o clima com base nas informações das pessoas daquela região.
 
 
