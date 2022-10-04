@@ -1,38 +1,54 @@
+<div align="center">
+  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+</div>
+
+---
 
 # Desafio Weather App
 
 Desafio consiste em testar um aplicação de previsão do tempo chamada SoWe. Ela obtem a localização do usuário e retorna o endereço e dados climáticos da região.
 
-## Requisitos
+## Considerações
+
+- Protótipo apresentado não descreve funcionalidades após cadastramento do usuário. Sendo assim seria preciso mais informações para validar corretamente a última tela do sistema.
+- Não foi informado nessa versão as funcionalidades de login do sistema.
+
+## :pushpin: Requisitos
 
 - Obter localização do usuário
 - Cadastro via SMS
 - Retorno de dados climáticos de acordo com a localização do usuário
 
 
-## Stack utilizada
+## :wrench: Stack utilizada
 
 **Escrita:** https://app.qase.io/
 
 **Execução:** Android v11
 
 
-## Técnica de Teste
+## :shipit:  Técnica de Teste
 
 **Escrita:** Utilizado padrão BDD (Behaviour Driven Development)
 
-**Execução:** Particionamento de Equivalência
+**Execução:** Particionamento de Equivalência.
 
-## Padrão Adotado
+## :earth_americas: Padrão Adotado
 
-**Nomenclatura de Teste:** <Cenário> - <ID teste> - <Nome do teste>
+**Nomenclatura de Teste:** [Cenário] - [ID teste] - [Nome do teste]
+
 Testes foram divididos em duas partes:
 
-- Teste de Unidade: Foi testado interface e campos conforme especificação
-- Teste de Sistema: Foi testado a funcionalidade da aplicação
+- Teste de Unidade: Foi testado interface e campos conforme especificação.
+- Teste de Sistema: Foi testado a funcionalidade da aplicação conforme regras negociais.
 
-## Report da Execução
+## :bar_chart: Report da Execução
 
-## Sugestão de Melhoria
+## :white_check_mark: Sugestão de Melhoria
+
+- Máscara de telefone (XX) XXXXX-XX ao informar telefone na tela de cadastro. Também é preciso ajustar o layout para corresponder ao DDI, para isso seria preciso saber se a aplicação só funcionaria com celulares correspondendo ao DDI brasileiro.
+- Só aceitar números na tela de cadastramento do telefone.
+- Limitar a quantidade de caracteres no campo [Nome Completo] O sistema aceita um valor mínimo, porém não foi definido um valor máximo para o campo.
+- Validar informação no campo [Nome Completo]. Sistema aceita caracteres especiais e isso pode gerar um brecha de segurança na aplicação.
 
 
