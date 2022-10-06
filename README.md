@@ -37,12 +37,21 @@ Desafio consiste em testar um aplicação de previsão do tempo chamada SoWe. El
 
 **Nomenclatura de Teste:** [Cenário] - [ID teste] - [Nome do teste]
 
+**Nomenclatura de Defeito:** [Tela] - [Descrição]
+
 Testes foram divididos em duas partes:
 
 - Teste de Unidade: Foi testado interface e campos conforme especificação.
 - Teste de Sistema: Foi testado a funcionalidade da aplicação conforme regras negociais.
 
+
 ## :bar_chart: Report da Execução
+
+1. Ao abrir o report gerado pela ferramenta qase 
+2. Clicar em <Result> para obter informações mais detalhadas
+
+- Teste de Unidade: https://app.qase.io/public/report/eac1d4291bb04ef17e3056b9582687e49dfd1f4a
+- Teste de Sistema: https://app.qase.io/public/report/f5a3b8fd678938e79441e22cb666d256e3314617
 
 ## :white_check_mark: Sugestão de Melhoria
 
