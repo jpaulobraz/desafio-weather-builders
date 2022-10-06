@@ -48,10 +48,10 @@ Testes foram divididos em duas partes:
 ## :bar_chart: Report da Execução
 
 1. Ao abrir o report gerado pela ferramenta qase 
-2. Clicar em <Result> para obter informações mais detalhadas
+2. Clicar em [Result] para obter informações mais detalhadas
 
-- Teste de Unidade: https://app.qase.io/public/report/eac1d4291bb04ef17e3056b9582687e49dfd1f4a
-- Teste de Sistema: https://app.qase.io/public/report/f5a3b8fd678938e79441e22cb666d256e3314617
+- Teste de Unidade: <a href="https://app.qase.io/public/report/eac1d4291bb04ef17e3056b9582687e49dfd1f4a" target="_blank">Report Test Unidade</a>
+- Teste de Sistema: <a href="https://app.qase.io/public/report/eac1d4291bb04ef17e3056b9582687e49dfd1f4a" target="_blank">Report Test Sistema</a>
 
 ## :white_check_mark: Sugestão de Melhoria
 
