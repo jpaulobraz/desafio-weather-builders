@@ -53,6 +53,16 @@ Testes foram divididos em duas partes:
 - Teste de Unidade: <a href="https://app.qase.io/public/report/eac1d4291bb04ef17e3056b9582687e49dfd1f4a" target="_blank">Report Test Unidade</a>
 - Teste de Sistema: <a href="https://app.qase.io/public/report/eac1d4291bb04ef17e3056b9582687e49dfd1f4a" target="_blank">Report Test Sistema</a>
 
+## :sob: Report de Bugs
+
+- Foi gerada planilha excel e adicionada no github com imagens e descrição dos bug encontrados. Foi seguido o seguinte padrão para classificação dos bugs:
+
+:red_circle: Block - Bloqueia completamente a utilização de uma funcionalidade básica ou da aplicação inteira
+
+:yellow_circle: Major - Bloqueia a utilização de uma funcionalidade, mas não impede que o sistema possa ser utilizado por meio de alguma correção paleativa.
+
+:green_circle: Minor - Problemas de baixa complexidade ou melhorias. Exemplo: Cor do botão está incorreto. Deveria ser verde e está com cor azul.
+
 ## :white_check_mark: Sugestão de Melhoria
 
 - Máscara de telefone (XX) XXXXX-XX ao informar telefone na tela de cadastro. Também é preciso ajustar o layout para corresponder ao DDI, para isso seria preciso saber se a aplicação só funcionaria com celulares correspondendo ao DDI brasileiro.
